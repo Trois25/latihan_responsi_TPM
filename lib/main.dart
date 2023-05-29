@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_responsi/view/home_page.dart';
+import 'package:bismillah_bisa/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Genshin Wiki',
-      home: HomePage(),
+      title: 'Flutter Demo',
+      home: MainPage(),
     );
   }
 }
-
